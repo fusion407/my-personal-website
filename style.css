@@ -1,8 +1,32 @@
 body {
-    background: rgb(97, 191, 220);
+    background: rgb(38, 38, 38);
 }
-h1 {
+header {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;  
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+header div nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(17, 66, 50);
+    text-align: center;
+    border: 1px solid rgb(8, 179, 8);
+    color: rgb(8, 179, 8);
+}
+h1 {
+
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid rgb(8, 179, 8);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(8, 179, 8);
 }
