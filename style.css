@@ -1,0 +1,8 @@
+body {
+    background: rgb(97, 191, 220);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
