@@ -22,6 +22,28 @@ header div nav {
     border: 1px solid rgb(8, 179, 8);
     color: rgb(8, 179, 8);
 }
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(8, 179, 8);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: rgb(12, 224, 12);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: rgb(8, 179, 8);
+    background-color: transparent;
+    text-decoration: underline;
+  }
 h1 {
 
     text-align: center;
